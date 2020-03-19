@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The code in this project include js,json,html and css.
+Writing in Visual Studio Code
+
+## The Following Technologies was used in this project
+yarn:1.22.4, to control the enviroment
+axios:0.19.2, to improve webservice use
+bootswatch:4.4.1, for easy template
+react:16.13.0, for use componets in js
+react-dom:16.13.0, for use componets in js
+react-router-dom:5.1.2, for move between views
+react-scripts:3.4.0 
+
+## To use in localhost
+The current version is deployed in Heroku.com, to use in localhost change the file \src\app\service\apiservice.js change  `baseURL` value for localhost
+
 ## Available Scripts
 
 In the project directory, you can run:
