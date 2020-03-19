@@ -6,6 +6,8 @@ import {
 
 import Mapas from '../views/mapas'
 import Cadastrar from '../views/cadastrar'
+import cadastradoSucesso from '../views/cadastrado-sucesso'
+import home from '../views/home'
 
 function Rotas(){
     return(
@@ -13,6 +15,8 @@ function Rotas(){
             <Switch>
                 <Route path="/cadastro" component={Cadastrar} />
                 <Route path="/mapa" component={Mapas} />
+                <Route path="/cadastroEfetuado" component={cadastradoSucesso} />
+                <Route path="" component={home} />
             </Switch>
         </HashRouter>
 

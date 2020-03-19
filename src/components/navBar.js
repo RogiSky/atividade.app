@@ -14,7 +14,6 @@ function NavBar(){
       <div className="collapse navbar-collapse" id="navbarResponsive">
       <ul className="navbar-nav">
       <NavBarItem href="#/cadastro" label="Cadastrar Pessoa" />
-      <NavBarItem href="#/mapa" label="Vizualizar Mapa" />
 
       </ul>
 
