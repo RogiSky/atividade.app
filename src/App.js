@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Cadastrar from './views/cadastrar'
+import 'bootswatch/dist/cosmo/bootstrap.css'
+import './views/custom.css'
+class App extends React.Component  {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+/*  state = {
+      cpf : '',
+      nome : '',
+      uf : 'AC',
+      peso : 0.0,
+      dia : 1,
+      mes : 1,
+      ano : 2020,
+    }
+*/
+
+    render(){
+      return(
+       <div>
+        <Cadastrar />
+       </div>)
+    }
 }
 
 export default App;
