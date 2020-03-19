@@ -1,7 +1,8 @@
 import React from 'react';
-import Cadastrar from './views/cadastrar'
+import Cadastrar from '../views/cadastrar'
+import Rotas from '../main/rotas'
 import 'bootswatch/dist/cosmo/bootstrap.css'
-import './views/custom.css'
+import NavBar from '../components/navBar'
 class App extends React.Component  {
 
 /*  state = {
@@ -17,9 +18,12 @@ class App extends React.Component  {
 
     render(){
       return(
-       <div>
-        <Cadastrar />
-       </div>)
+        <>
+        <NavBar />
+       <div className="container">
+        <Rotas />
+       </div>
+       </>)
     }
 }
 
