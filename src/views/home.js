@@ -4,12 +4,7 @@ import {withRouter} from 'react-router-dom'
 
 class CadastradoSucesso extends React.Component{
 
-    irParaCadastrar(){
-        this.props.history.push('/cadastro')
-    }
-    irParaPagInicial(){
-        this.props.history.push('')
-    }
+
     
     render () {
  
